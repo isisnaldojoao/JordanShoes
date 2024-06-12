@@ -22,6 +22,7 @@ header{
     align-items: center;
     background-color: #fff;
     height: 30px;
+    width: full;
 }
 
 .area-jordan{
@@ -54,6 +55,7 @@ header{
     flex-direction: column;
     align-items: center;
     text-align: center;
+    justify-content: center;
     margin-top: 80px;
 }
 
@@ -64,6 +66,7 @@ header{
 
 .area-jordan-shopp-shoes{
     margin:100px 0 100px 0px;
+
     align-items: center;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr ;
@@ -117,9 +120,10 @@ footer{
 footer a{
     text-decoration: none;
     color: #fff;
+    width: full;
 }
 
-@media only screen and (max-width: 1080px) {
+@media only screen and (max-width: 1080px) {    
     .area-jordan{
         background-image: url('../assets/image-michael-jordan.png');
         background-position: top;
