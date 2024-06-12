@@ -22,30 +22,35 @@ header{
     align-items: center;
     background-color: #fff;
     height: 30px;
-    width: full;
+    width: 100%;
 }
 
 .area-jordan{
     background-image: url('../assets/image-michael-jordan.png');
-    width: full;
+    background-position: top;
+    background-size: cover;
+    width: 100%;
     height: 500px;
     color: #fff;
-    align-items: center;
-    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0 10%;
 }
 
 .area-jordan img{
-    margin:200px 0px 0px 200px;
+    margin-top: 200px;
 }
 
 .area-jordan h3{
-    margin:2px 0px 0px 200px;
+    margin-top: 2px;
     font-weight: normal;
     font-size: 30px;
 }
 
 .area-jordan p{
-    margin:10px 0px 0px 200px;
+    margin-top: 10px;
     font-size: 30px;
     font-weight: lighter;
 }
@@ -57,6 +62,7 @@ header{
     text-align: center;
     justify-content: center;
     margin-top: 80px;
+    padding: 0 10%;
 }
 
 .area-jordan-shopp p{
@@ -65,28 +71,30 @@ header{
 }
 
 .area-jordan-shopp-shoes{
-    margin:100px 0 100px 0px;
-
-    align-items: center;
+    margin: 100px 0;
+    width: 100%;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    align-items: center;
+    justify-items: center;
 }
 
 .jordan{
-    width: 450px;
-    margin: 20px;
+    width: 100%;
+    max-width: 450px;
 }
 
 .jordan img{
     cursor: pointer;
-    margin-bottom:50px;
+    margin-bottom: 50px;
     transition: transform 0.3s ease;
+    width: 100%;
 }
 
 .jordan img:hover{
     transform: scale(1.1);
 }
-
 
 .jordan-text{
     font-size: 15px;
@@ -120,47 +128,37 @@ footer{
 footer a{
     text-decoration: none;
     color: #fff;
-    width: full;
 }
 
-@media only screen and (max-width: 1080px) {    
+@media only screen and (max-width: 1080px) {
     .area-jordan{
-        background-image: url('../assets/image-michael-jordan.png');
-        background-position: top;
-        background-size: cover;
-        width: full;
-        height: 500px;
-        color: #fff;
-        align-items: center;
-        text-align: left;
+        height: auto;
+        padding: 20px 5%;
     }
 
     .area-jordan img{
-        margin:100px 0px 0px 50px;
+        margin-top: 100px;
     }
     
     .area-jordan h3{
-        margin:50px 0px 0px 50px;
-        font-weight: normal;
+        margin-top: 50px;
         font-size: 30px;
     }
     
     .area-jordan p{
-        margin:20px 0px 0px 50px;
+        margin-top: 20px;
         font-size: 25px;
-        font-weight: lighter;
     }
 
     .area-jordan-shopp-shoes{
-        margin:100px 0 100px 0px;
-        align-items: center;
-        display: grid;
-        grid-template-columns: 1fr 1fr ;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     }
+
     .jordan{
-        width: 450px;
-        margin: 0px 0px 0px 100px;
+        width: 100%;
+        margin: 20px 0;
     }
+
     .jordan h2{
         font-size: 20px;
     }
@@ -168,38 +166,33 @@ footer a{
 
 @media only screen and (max-width: 900px) {
     .area-jordan{
-        background-image: url('../assets/image-michael-jordan.png');
-        background-position: top;
-        background-size: cover;
-        width: full;
-        height: 500px;
-        color: #fff;
-        align-items: center;
-        text-align: left;
+        height: auto;
+        padding: 20px 5%;
     }
 
     .area-jordan img{
-        margin:100px 0px 0px 50px;
+        margin-top: 100px;
     }
     
     .area-jordan h3{
-        margin:50px 0px 0px 50px;
-        font-weight: normal;
+        margin-top: 50px;
         font-size: 30px;
     }
     
     .area-jordan p{
-        margin:20px 0px 0px 50px;
+        margin-top: 20px;
         font-size: 25px;
-        font-weight: lighter;
     }
 
     .area-jordan-shopp-shoes{
-        margin:100px 0 100px 0px;
-        align-items: center;
-        display: grid;
-        grid-template-columns: 1fr ;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     }
+
+    .jordan{
+        width: 100%;
+        margin: 20px 0;
+    }
+
     .jordan h2{
         font-size: 18px;
     }
