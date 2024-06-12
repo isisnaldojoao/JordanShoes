@@ -25,7 +25,7 @@ header{
 }
 
 .area-jordan{
-    background-image: url('./assets//image-michael-jordan.png');
+    background-image: url('../assets/image-michael-jordan.png');
     width: full;
     height: 500px;
     color: #fff;
