@@ -121,7 +121,7 @@ footer a{
 
 @media only screen and (max-width: 1080px) {
     .area-jordan{
-        background-image: url('./assets//image-michael-jordan.png');
+        background-image: url('../assets/image-michael-jordan.png');
         background-position: top;
         background-size: cover;
         width: 768;
@@ -153,11 +153,15 @@ footer a{
         display: grid;
         grid-template-columns: 1fr 1fr ;
     }
+    .jordan{
+        width: 450px;
+        margin: 0px 0px 0px 50px;
+    }
 }
 
 @media only screen and (max-width: 900px) {
     .area-jordan{
-        background-image: url('./assets//image-michael-jordan.png');
+        background-image: url('../assets/image-michael-jordan.png');
         background-position: top;
         background-size: cover;
         width: 768;
