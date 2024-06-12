@@ -1,0 +1,192 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --gray:#707070;
+}
+
+body {
+    font-family: "Archivo", sans-serif;
+}
+
+header{
+    display: flex;
+    font-size: 8px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-color: #fff;
+    height: 30px;
+}
+
+.area-jordan{
+    background-image: url('./assets//image-michael-jordan.png');
+    width: full;
+    height: 500px;
+    color: #fff;
+    align-items: center;
+    text-align: left;
+}
+
+.area-jordan img{
+    margin:200px 0px 0px 200px;
+}
+
+.area-jordan h3{
+    margin:2px 0px 0px 200px;
+    font-weight: normal;
+    font-size: 30px;
+}
+
+.area-jordan p{
+    margin:10px 0px 0px 200px;
+    font-size: 30px;
+    font-weight: lighter;
+}
+
+.area-jordan-shopp{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 80px;
+}
+
+.area-jordan-shopp p{
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.area-jordan-shopp-shoes{
+    margin:100px 0 100px 0px;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+}
+
+.jordan{
+    width: 450px;
+    margin: 20px;
+}
+
+.jordan img{
+    cursor: pointer;
+    margin-bottom:50px;
+    transition: transform 0.3s ease;
+}
+
+.jordan img:hover{
+    transform: scale(1.1);
+}
+
+
+.jordan-text{
+    font-size: 15px;
+    text-align: left;
+}
+
+.jordan-text h2 {
+    font-weight: normal;
+}
+
+.jordan-text h3 {
+    color: var(--gray);
+}
+
+.jordan-text p {
+    font-weight: bold;
+}
+
+footer{
+    display: flex;
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    font-weight: normal;
+}
+
+footer a{
+    text-decoration: none;
+    color: #fff;
+}
+
+@media only screen and (max-width: 1080px) {
+    .area-jordan{
+        background-image: url('./assets//image-michael-jordan.png');
+        background-position: top;
+        background-size: cover;
+        width: 768;
+        height: 500px;
+        color: #fff;
+        align-items: center;
+        text-align: left;
+    }
+
+    .area-jordan img{
+        margin:100px 0px 0px 50px;
+    }
+    
+    .area-jordan h3{
+        margin:50px 0px 0px 50px;
+        font-weight: normal;
+        font-size: 30px;
+    }
+    
+    .area-jordan p{
+        margin:20px 0px 0px 50px;
+        font-size: 25px;
+        font-weight: lighter;
+    }
+
+    .area-jordan-shopp-shoes{
+        margin:100px 0 100px 0px;
+        align-items: center;
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .area-jordan{
+        background-image: url('./assets//image-michael-jordan.png');
+        background-position: top;
+        background-size: cover;
+        width: 768;
+        height: 500px;
+        color: #fff;
+        align-items: center;
+        text-align: left;
+    }
+
+    .area-jordan img{
+        margin:100px 0px 0px 50px;
+    }
+    
+    .area-jordan h3{
+        margin:50px 0px 0px 50px;
+        font-weight: normal;
+        font-size: 30px;
+    }
+    
+    .area-jordan p{
+        margin:20px 0px 0px 50px;
+        font-size: 25px;
+        font-weight: lighter;
+    }
+
+    .area-jordan-shopp-shoes{
+        margin:100px 0 100px 0px;
+        align-items: center;
+        display: grid;
+        grid-template-columns: 1fr ;
+    }
+}
