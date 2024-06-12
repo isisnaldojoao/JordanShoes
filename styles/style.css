@@ -124,7 +124,7 @@ footer a{
         background-image: url('../assets/image-michael-jordan.png');
         background-position: top;
         background-size: cover;
-        width: 768;
+        width: full;
         height: 500px;
         color: #fff;
         align-items: center;
@@ -155,7 +155,7 @@ footer a{
     }
     .jordan{
         width: 450px;
-        margin: 0px 0px 0px 50px;
+        margin: 0px 0px 0px 100px;
     }
 }
 
@@ -164,7 +164,7 @@ footer a{
         background-image: url('../assets/image-michael-jordan.png');
         background-position: top;
         background-size: cover;
-        width: 768;
+        width: full;
         height: 500px;
         color: #fff;
         align-items: center;
